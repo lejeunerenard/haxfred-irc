@@ -2,6 +2,9 @@
 logs
 *.log
 
+# Files open in Vim
+*.swp
+
 # Runtime data
 pids
 *.pid

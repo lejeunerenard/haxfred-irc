@@ -10,14 +10,14 @@
   "keywords": [
     "irc",
     "haxfred"
-  
-     ],
-    "bin": {
-    },
-  "dependencies": {},
+  ],
+  "bin": {
+  },
+  "dependencies": {
+    "haxfred": "haxiom/haxfred#development",
+    "irc": ""
+  },
   "engines": {
     "node": "*"
-  
   }
-
 }

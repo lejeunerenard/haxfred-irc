@@ -7,6 +7,10 @@
     "url": "https://github.com/haxiom/haxfred-irc"
   },
   "main": "./lib/haxfred-irc",
+  "scripts": {
+    "test": "mocha test",
+    "development": "mocha -w test --reporter spec"
+  },
   "keywords": [
     "irc",
     "haxfred"
@@ -16,6 +20,12 @@
   "dependencies": {
     "haxfred": "haxiom/haxfred#development",
     "irc": ""
+  },
+  "devDependencies": {
+    "chai": "~1.9.0",
+    "mocha": "^1.18.2",
+    "sinon-chai": "*",
+    "sinon": "~1.8.2"
   },
   "engines": {
     "node": "*"
